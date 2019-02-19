@@ -16,32 +16,27 @@
  /************************/
 /*         LISTE        */
 /***********************/
+.back {
+  background-color: #3f6c77;
+}
 
 .marg {
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 
 .top-div {
  text-align: center;
 }
 
-.rowlist {
-flex-wrap: nowrap;
-}
-
-
 .bottom-div {
 display: inline-block;
 width: 70%;
 }
 
-.row-list {
-  flex-direction: row;
-}
 
 .padcard {
-  margin-right: 20px;
-  margin-bottom: 20px;
+  margin-right: 30px;
+  margin-bottom: 40px;
 }
 
 
@@ -59,6 +54,7 @@ width: 70%;
 border-radius: 5px;
 border: solid 3px #233338;
 width: 30%;
+/* permet d'aligner toutes les divs sur la ligne et pas les unes sous les autres*/
 display: inline-block;
 }
 
