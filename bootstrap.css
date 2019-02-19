@@ -13,6 +13,53 @@
  */
 
 
+
+
+ /************************/
+/*        BANNER        */
+/***********************/
+.text-ban {
+  color: #343a40;
+  font-size: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 20;
+}
+
+
+
+.bottom {
+    position: relative
+
+}
+
+
+.ban-btn {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #2B4D56;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.ban-btn:hover {
+  background-color: #2f6370;
+}
+
+.ban{
+height: 600px;
+ width: auto;
+
+
+}
 /************************/
 /*        Form        */
 /***********************/
@@ -22,6 +69,7 @@
   border: 2px solid #f16822;
   width: 300px;
   height: 30px;
+
 }
  
 .wid {
